@@ -1,0 +1,17 @@
+database:
+  path: ./englearnbot_db.db
+
+wordlists:
+  oxford_5000: ./wordlists/oxford_5000.txt
+  oxford_3000: ./wordlists/oxford_3000.txt
+
+telegram:
+  token: "your_telegram_bot_token_here"
+
+users:
+  admins: [123456789]
+  whitelisted: [123456789, 87654321]
+
+daily_limits:
+  new_words: 25
+  max_reviews: 100
